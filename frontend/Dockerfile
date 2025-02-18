@@ -6,7 +6,7 @@ COPY ./src .
 
 EXPOSE 80
 
-RUN npm install npm@latest -g
+RUN npm install
 RUN npm i
 RUN npm i @mui/icons-material
 
