@@ -6,6 +6,6 @@ COPY ./src .
 
 EXPOSE 5000
 
-RUN npm install
+RUN npm i
 
 CMD ["npm","start"]
