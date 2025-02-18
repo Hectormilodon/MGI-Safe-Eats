@@ -5,7 +5,3 @@ WORKDIR /app
 COPY ./src .
 
 EXPOSE 80
-
-RUN npm install
-
-CMD npm start
