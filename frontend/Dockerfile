@@ -8,8 +8,8 @@ EXPOSE 80
 
 RUN npm install -g npm@latest
 
-RUN npm install
+RUN npm i
 
-RUN npm install @mui/icons-material
+RUN npm i @mui/icons-material
 
 CMD npm start
