@@ -1,0 +1,8 @@
+[submodule "backend/src"]
+        path = backend/src
+        url = git@github.com:Hectormilodon/MGI-Safe-Eats-Backend.git
+        branch = main
+[submodule "frontend/src"]
+        path = frontend/src
+        url = git@github.com:Hectormilodon/MGI-Safe-Eats-Frontend.git
+        branch = main
