@@ -6,6 +6,6 @@ COPY ./src .
 
 EXPOSE 5000
 
-RUN npm i
+RUN github/npm i
 
 CMD ["npm","start"]
