@@ -6,10 +6,6 @@ COPY ./src .
 
 EXPOSE 80
 
-RUN stagex/npm install -g npm@latest
-
-RUN stagex/npm i
-
-RUN npm i @mui/icons-material
+RUN npm install
 
 CMD npm start
