@@ -6,6 +6,6 @@ COPY ./src .
 
 EXPOSE 5000
 
-RUN github/npm i
+RUN stagex/npm i
 
 CMD ["npm","start"]
