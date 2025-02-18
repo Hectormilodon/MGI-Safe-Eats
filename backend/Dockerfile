@@ -6,6 +6,6 @@ COPY ./src .
 
 EXPOSE 5000
 
-RUN stagex/npm i
+RUN npm install
 
 CMD ["npm","start"]
