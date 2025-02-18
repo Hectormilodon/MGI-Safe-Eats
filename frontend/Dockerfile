@@ -6,8 +6,6 @@ COPY ./src .
 
 EXPOSE 80
 
-RUN npm i
-
 RUN npm i @mui/icons-material
 
 CMD npm start
