@@ -1,11 +1,13 @@
-FROM node:18.20.6-alpine3.21
+FROM node:latest
 
 WORKDIR /app
+
+COPY package*.json ./
+
+RUN npm install
 
 COPY ./src .
 
 EXPOSE 5000
-
-RUN npm i
 
 CMD ["npm","start"]
