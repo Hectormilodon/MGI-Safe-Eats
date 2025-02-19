@@ -1,11 +1,11 @@
-FROM node:latest
+FROM node:18-alpine
 
 WORKDIR /app
-
-RUN npm i
 
 COPY ./src .
 
 EXPOSE 3000
+
+RUN npm i
 
 CMD ["npm","start"]
