@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY package*.json ./
 
-RUN npm ci
+RUN npm i
 RUN npm i @mui/icons-material
 
 COPY ./src .
