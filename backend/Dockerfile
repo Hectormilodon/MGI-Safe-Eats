@@ -6,6 +6,6 @@ RUN npm i
 
 COPY ./src .
 
-EXPOSE 5000
+EXPOSE 3000
 
 CMD ["npm","start"]
