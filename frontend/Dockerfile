@@ -4,8 +4,6 @@ WORKDIR /app
 
 COPY ./src .
 
-COPY package*.json ./
-
 EXPOSE 80
 
 RUN npm install
