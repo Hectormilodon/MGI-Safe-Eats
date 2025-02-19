@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY ./src .
 
-EXPOSE 3000
+EXPOSE 5100
 
 RUN npm i
 
