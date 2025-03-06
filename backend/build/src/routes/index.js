@@ -1,0 +1,37 @@
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = __importDefault(require("express"));
+const authRoute_1 = __importDefault(require("./authRoute"));
+const userRoute_1 = __importDefault(require("./userRoute"));
+const localRoute_1 = __importDefault(require("../routes/localRoute"));
+const userlocalRoute_1 = __importDefault(require("./userlocalRoute"));
+const rolRoute_1 = __importDefault(require("./rolRoute"));
+const empadminRoute_1 = __importDefault(require("./empadminRoute"));
+const reportRoute_1 = __importDefault(require("./reportRoute"));
+const questionRoute_1 = __importDefault(require("./questionRoute"));
+const clasificationRoute_1 = __importDefault(require("./clasificationRoute"));
+const inputvalueRoute_1 = __importDefault(require("./inputvalueRoute"));
+const alertRoute_1 = __importDefault(require("./alertRoute"));
+const chartRoute_1 = __importDefault(require("./chartRoute"));
+const predictiveModelRoute_1 = __importDefault(require("./predictiveModelRoute"));
+const suggestionRoute_1 = __importDefault(require("./suggestionRoute"));
+const appRoute = express_1.default.Router();
+appRoute.use("/auth", authRoute_1.default);
+appRoute.use("/user", userRoute_1.default);
+appRoute.use("/local", localRoute_1.default);
+appRoute.use("/userlocal", userlocalRoute_1.default);
+appRoute.use("/rol", rolRoute_1.default);
+appRoute.use("/empadmin", empadminRoute_1.default);
+appRoute.use("/report", reportRoute_1.default);
+appRoute.use("/question", questionRoute_1.default);
+appRoute.use("/clasification", clasificationRoute_1.default);
+appRoute.use("/inputvalue", inputvalueRoute_1.default);
+appRoute.use("/alert", alertRoute_1.default);
+appRoute.use("/chart", chartRoute_1.default);
+appRoute.use("/predictive_model", predictiveModelRoute_1.default);
+appRoute.use("/suggestion", suggestionRoute_1.default);
+exports.default = appRoute;
+//# sourceMappingURL=index.js.map
