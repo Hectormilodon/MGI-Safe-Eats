@@ -1,0 +1,265 @@
+{
+  "TITLE": "DASHBOARD",
+  "404": {
+    "subtitle": "No se pudo encontrar la página que solicitó.",
+    "title": "Ooops... 404"
+  },
+  "alertsApp": {
+    "form": {
+      "company": {
+        "placeholder": "Seleccione empresas",
+        "title": "Empresa"
+      },
+      "description": {
+        "error": "Ingrese una descripción",
+        "placeholder": "Descripción",
+        "title": "Descripción"
+      },
+      "service": {
+        "title": "Servicio"
+      },
+      "state": {
+        "active": "Activo",
+        "inactive": "Inactivo",
+        "label": "Estado"
+      },
+      "title": {
+        "error": "Ingrese un título",
+        "placeholder": "Título",
+        "title": "Título"
+      },
+      "type": {
+        "title": "Tipo"
+      }
+    },
+    "search": "Buscar alertas",
+    "title": "Alertas"
+  },
+  "button": {
+    "add": "Agregar",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "save": "Guardar"
+  },
+  "companies": {
+    "form": {
+      "moduleCommercial": {
+        "checkTitle": "Módulo Comercial",
+        "imputPlaceholder": "Etiquetas Comerciales",
+        "imputTitle": "Etiquetas Comerciales"
+      },
+      "moduleFinance": {
+        "checkTitle": "Módulo Financiero",
+        "imputPlaceholder": "Etiquetas Financieras",
+        "imputTitle": "Etiquetas Financieras"
+      },
+      "moduleOperational": {
+        "checkTitle": "Módulo Operaciones",
+        "imputPlaceholder": "Etiquetas Operaciones",
+        "imputTitle": "Etiquetas Operaciones"
+      },
+      "name": {
+        "error": "Ingrese un nombre",
+        "placeholder": "Nombre",
+        "title": "Nombre"
+      },
+      "reports": {
+        "title": "Reportes"
+      },
+      "rut": {
+        "errorFormat": "Formato Inválido",
+        "errorRequired": "Ingrese un RUT",
+        "errorValidate": "RUT inválido",
+        "placeholder": "XXXXXXXX-X",
+        "title": "RUT"
+      }
+    },
+    "search": "Buscar empresas",
+    "title": "Empresas",
+    "view": {
+      "modules": {
+        "commercial": "Comercial",
+        "finance": "Financiero",
+        "operational": "Operaciones",
+        "title": "Módulos"
+      },
+      "reports": {
+        "title": "Reportes"
+      }
+    }
+  },
+  "companiesTags": {
+    "form": {
+      "input": {
+        "placeholder": "Etiqueta Padre",
+        "title": "Etiqueta Padre"
+      },
+      "name": {
+        "error": "Ingrese un nombre",
+        "placeholder": "Nombre",
+        "title": "Nombre"
+      }
+    },
+    "search": "Buscar etiquetas",
+    "title": "Etiquetas empresas"
+  },
+  "companiesTagsReport": {
+    "button": "Asignar",
+    "form": {
+      "selectCompany": {
+        "label": "Empresa",
+        "placeholder": "ninguna",
+        "title": "Seleccione una empresa"
+      },
+      "selectReport": {
+        "title": "Seleccione uno o más reportes"
+      },
+      "selectTag": {
+        "label": "Etiqueta",
+        "placeholder": "ninguna",
+        "title": "Seleccione una Etiqueta"
+      }
+    },
+    "notifyError": "Permisos no asignados",
+    "notifyOk": "Permisos asignados correctamente",
+    "subtitle": "Asignar etiquetas a reportes",
+    "title": "Etiquetar reportes"
+  },
+  "companiesTagsUser": {
+    "button": "Asignar",
+    "form": {
+      "selectCompany": {
+        "label": "Empresa",
+        "placeholder": "ninguna",
+        "title": "Seleccionar una empresa"
+      },
+      "selectReport": {
+        "labelTag": "Etiqueta",
+        "labelUser": "Usuario",
+        "placeholder": "ninguno",
+        "title": "Seleccionar uno o más reportes"
+      },
+      "selectTagUser": {
+        "labelTag": "Etiqueta",
+        "labelUser": "Usuario",
+        "placeholder": "ninguno",
+        "title": "Seleccione una etiqueta y un usuario"
+      }
+    },
+    "subtitle": "Asignar permisos a reportes",
+    "title": "Permisos reportes"
+  },
+  "dashboard": {
+    "analistsContainer": {
+      "title": "Listado analistas"
+    },
+    "indicaEcomItem": {
+      "date": "Fecha"
+    },
+    "indicaPlatContainer": {
+      "companies": "Empresas",
+      "title": "Indicadores plataforma",
+      "users": "Usuarios"
+    },
+    "indicaRepoContainer": {
+      "commercial": "Módulos Comerciales",
+      "finance": "Módulos Financieros",
+      "operational": "Módulos de Operaciones",
+      "title": "Reportes por Módulos"
+    },
+    "subtitle": "Seguimiento del estado de la plataforma",
+    "title": "Dashboard General"
+  },
+  "footer": "Biwiser, todos los derechos reservados.",
+  "loading": "Cargando...",
+  "login": {
+    "buttonLogin": "Ingresar",
+    "error": "Email o contraseña inválidos",
+    "forgot": "¿Olvidó su contraseña?",
+    "message": {
+      "out": "Sesión cerrada",
+      "signed": "Sesión iniciada",
+      "signing": "Iniciando sesión"
+    },
+    "remember": "Recuérdame",
+    "subtitle": "Inicie sesión para acceder a sus reportes.",
+    "subTitleRight": "Transformamos datos en información y ayudamos a tomar mejores decisiones.",
+    "title": "Iniciar Sesión",
+    "titleRight1": "Bienvenido a",
+    "titleRight2": "Plataforma Biwiser"
+  },
+  "logout": "¡Has cerrado sesión!",
+  "navbar": {
+    "fontSize": "Tamaño de la fuente",
+    "fullScreen": "Pantalla completa",
+    "menu": {
+      "profile": "Mi Perfil",
+      "signOut": "Cerrar sesión"
+    }
+  },
+  "transferlistMenu": {
+    "selected": "Seleccionados",
+    "titleAssigned": "Asignados",
+    "titleReports": "Reportes"
+  },
+  "users": {
+    "enterAs": "Ingresar como",
+    "form": {
+      "address": {
+        "placeholder": "Dirección",
+        "title": "Dirección"
+      },
+      "company": {
+        "placeholder": "Empresa",
+        "title": "Empresa"
+      },
+      "dialog": {
+        "buttonCancel": "CANCELAR",
+        "messageDelete": "¿Seguro que desea eliminar?",
+        "messageSave": "¿Seguro que desea guardar?"
+      },
+      "email": {
+        "error": "Ingrese un email",
+        "placeholder": "ejemplo@biwiser.com",
+        "title": "Email"
+      },
+      "gender": {
+        "female": "Femenino",
+        "male": "Masculino",
+        "other": "Otro",
+        "title": "Género"
+      },
+      "lastname": {
+        "error": "Ingrese un apellido",
+        "placeholder": "Apellido",
+        "title": "Apellido"
+      },
+      "name": {
+        "error": "Ingrese un nombre",
+        "placeholder": "Nombre",
+        "title": "Nombre"
+      },
+      "notify": {
+        "addError": "Datos no agregados, verifique la información",
+        "addOk": "Datos agregados",
+        "updateError": "Datos no actualizados, verifique la información",
+        "updateOk": "Datos actualizados"
+      },
+      "role": {
+        "placeholder": "Rol",
+        "title": "Rol"
+      },
+      "rut": {
+        "errorFormat": "Formato Inválido",
+        "errorRequired": "Ingrese un RUT",
+        "errorValidate": "RUT inválido",
+        "placeholder": "XXXXXXXX-X",
+        "title": "RUT"
+      }
+    },
+    "search": "Buscar usuarios",
+    "title": "Usuarios"
+  }
+}
