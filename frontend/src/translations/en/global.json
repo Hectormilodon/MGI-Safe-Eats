@@ -1,0 +1,265 @@
+{
+  "TITLE": "DASHBOARD",
+  "404": {
+    "subtitle": "The requested page could not be found.",
+    "title": "Ooops... 404"
+  },
+  "alertsApp": {
+    "form": {
+      "company": {
+        "placeholder": "Select companies",
+        "title": "Company"
+      },
+      "description": {
+        "error": "Enter a description",
+        "placeholder": "Description",
+        "title": "Description"
+      },
+      "service": {
+        "title": "Service"
+      },
+      "state": {
+        "active": "Active",
+        "inactive": "Inactive",
+        "label": "Status"
+      },
+      "title": {
+        "error": "Enter a title",
+        "placeholder": "Title",
+        "title": "Title"
+      },
+      "type": {
+        "title": "Type"
+      }
+    },
+    "search": "Search alerts",
+    "title": "Alerts"
+  },
+  "button": {
+    "add": "Add",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "delete": "Delete",
+    "edit": "Edit",
+    "save": "Save"
+  },
+  "companies": {
+    "form": {
+      "moduleCommercial": {
+        "checkTitle": "Commercial Module",
+        "imputPlaceholder": "Commercial Tags",
+        "imputTitle": "Commercial Tags"
+      },
+      "moduleFinance": {
+        "checkTitle": "Financial Module",
+        "imputPlaceholder": "Financial Tags",
+        "imputTitle": "Financial Tags"
+      },
+      "moduleOperational": {
+        "checkTitle": "Operational Module",
+        "imputPlaceholder": "Operational Tags",
+        "imputTitle": "Operational Tags"
+      },
+      "name": {
+        "error": "Enter a name",
+        "placeholder": "Name",
+        "title": "Name"
+      },
+      "reports": {
+        "title": "Reports"
+      },
+      "rut": {
+        "errorFormat": "Invalid Format",
+        "errorRequired": "Enter a RUT",
+        "errorValidate": "Invalid RUT",
+        "placeholder": "XXXXXXXX-X",
+        "title": "RUT"
+      }
+    },
+    "search": "Search companies",
+    "title": "Companies",
+    "view": {
+      "modules": {
+        "commercial": "Commercial",
+        "finance": "Financial",
+        "operational": "Operational",
+        "title": "Modules"
+      },
+      "reports": {
+        "title": "Reports"
+      }
+    }
+  },
+  "companiesTags": {
+    "form": {
+      "input": {
+        "placeholder": "Parent Tag",
+        "title": "Parent Tag"
+      },
+      "name": {
+        "error": "Enter a name",
+        "placeholder": "Name",
+        "title": "Name"
+      }
+    },
+    "search": "Search tags",
+    "title": "Company Tags"
+  },
+  "companiesTagsReport": {
+    "button": "Assign",
+    "form": {
+      "selectCompany": {
+        "label": "Company",
+        "placeholder": "none",
+        "title": "Select a company"
+      },
+      "selectReport": {
+        "title": "Select one or more reports"
+      },
+      "selectTag": {
+        "label": "Tag",
+        "placeholder": "none",
+        "title": "Select a Tag"
+      }
+    },
+    "notifyError": "Permissions not assigned!",
+    "notifyOk": "Permissions assigned successfully!",
+    "subtitle": "Assign tags to reports",
+    "title": "Tag Reports"
+  },
+  "companiesTagsUser": {
+    "button": "Assign",
+    "form": {
+      "selectCompany": {
+        "label": "Company",
+        "placeholder": "none",
+        "title": "Select a company"
+      },
+      "selectReport": {
+        "labelTag": "Tag",
+        "labelUser": "User",
+        "placeholder": "none",
+        "title": "Select one or more reports"
+      },
+      "selectTagUser": {
+        "labelTag": "Tag",
+        "labelUser": "User",
+        "placeholder": "none",
+        "title": "Select a tag and a user"
+      }
+    },
+    "subtitle": "Assign permissions to reports",
+    "title": "Report Permissions"
+  },
+  "dashboard": {
+    "analistsContainer": {
+      "title": "Analysts List"
+    },
+    "indicaEcomItem": {
+      "date": "Date"
+    },
+    "indicaPlatContainer": {
+      "companies": "Companies",
+      "title": "Platform Indicators",
+      "users": "Users"
+    },
+    "indicaRepoContainer": {
+      "commercial": "Commercial Modules",
+      "finance": "Financial Modules",
+      "operational": "Operational Modules",
+      "title": "Reports by Modules"
+    },
+    "subtitle": "Monitoring platform status",
+    "title": "General Dashboard"
+  },
+  "footer": "Biwiser, all rights reserved.",
+  "loading": "Loading...",
+  "login": {
+    "buttonLogin": "Login",
+    "error": "Invalid Email or Password",
+    "forgot": "Forgot your password?",
+    "message": {
+      "out": "Logged out",
+      "signed": "Session started",
+      "signing": "Signing in"
+    },
+    "remember": "Remember me",
+    "subtitle": "Log in to access your reports.",
+    "subTitleRight": "We transform data into information and help make better decisions.",
+    "title": "Login",
+    "titleRight1": "Welcome to",
+    "titleRight2": "Biwiser Platform"
+  },
+  "logout": "You have logged out!",
+  "navbar": {
+    "fontSize": "Font Size",
+    "fullScreen": "Full Screen",
+    "menu": {
+      "profile": "My Profile",
+      "signOut": "Sign Out"
+    }
+  },
+  "transferlistMenu": {
+    "selected": "Selected",
+    "titleAssigned": "Assigned",
+    "titleReports": "Reports"
+  },
+  "users": {
+    "enterAs": "Enter as",
+    "form": {
+      "address": {
+        "placeholder": "Address",
+        "title": "Address"
+      },
+      "company": {
+        "placeholder": "Company",
+        "title": "Company"
+      },
+      "dialog": {
+        "buttonCancel": "CANCEL",
+        "messageDelete": "Are you sure you want to delete?",
+        "messageSave": "Are you sure you want to save?"
+      },
+      "email": {
+        "error": "Enter an email",
+        "placeholder": "example@biwiser.com",
+        "title": "Email"
+      },
+      "gender": {
+        "female": "Female",
+        "male": "Male",
+        "other": "Other",
+        "title": "Gender"
+      },
+      "lastname": {
+        "error": "Enter a last name",
+        "placeholder": "Last Name",
+        "title": "Last Name"
+      },
+      "name": {
+        "error": "Enter a name",
+        "placeholder": "Name",
+        "title": "Name"
+      },
+      "notify": {
+        "addError": "Data not added, check information",
+        "addOk": "Data added",
+        "updateError": "Data not updated, check information",
+        "updateOk": "Data updated"
+      },
+      "role": {
+        "placeholder": "Role",
+        "title": "Role"
+      },
+      "rut": {
+        "errorFormat": "Invalid Format",
+        "errorRequired": "Enter a RUT",
+        "errorValidate": "Invalid RUT",
+        "placeholder": "XXXXXXXX-X",
+        "title": "RUT"
+      }
+    },
+    "search": "Search users",
+    "title": "Users"
+  }
+}
